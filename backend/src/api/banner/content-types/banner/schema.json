@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "punchLine": {
+      "type": "string",
+      "required": true
+    },
+    "productType": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "salePrice": {
+      "type": "string",
+      "required": true
+    },
+    "buttonColor": {
+      "type": "string",
+      "required": true
+    },
+    "spanColor": {
+      "type": "string",
+      "required": true
+    },
+    "oldPrice": {
+      "type": "string",
+      "required": true
+    },
+    "deadLine": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
